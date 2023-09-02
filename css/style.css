@@ -253,7 +253,9 @@ figure {
   position: relative;
   width: 80%;
   margin: 0 auto;
-  padding: 4em 0;
+  /*padding: 4em 0; */
+  padding-top: 2em; /* Reduce the spacing above the content */
+  padding-bottom: 2em; /* Keep the spacing below the content */
 }
 @media screen and (max-width: 768px) {
   #fh5co-main .fh5co-narrow-content {
@@ -635,9 +637,11 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .fh5co-heading {
-  font-size: 30px;
+  font-size: 24px;
   color: #da1212;
   margin-bottom: 1em;
+  margin-top: 1.0em; /* Increase the space before the title */
+  margin-bottom: 0.5em; /* Reduce the space after the title */
 }
 .fh5co-heading.fh5co-light {
   color: #fff;
@@ -647,7 +651,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading {
-    font-size: 30px;
+    font-size: 24px;
     margin-bottom: 1em;
   }
 }
