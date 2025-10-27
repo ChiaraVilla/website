@@ -597,18 +597,23 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .fh5co-feature {
-  text-align: left;
+  display: flex;        /* switch to flex layout */
+  align-items: center;  /* vertically center icon and text */
+  /* text-align: left;*/
   width: 100%;
   float: left;
   padding: 20px;
   margin-bottom: 0;
   padding-bottom: 0;
+  gap: 40px;            /* horizontal space between icon and text */
+  flex-wrap: wrap;      /* ensures text wraps on very narrow screens */
 }
 .fh5co-feature .fh5co-icon {
-  float: left;
-  width: 5%;
-  display: block;
-  margin-top: 0px;
+  flex-shrink: 0;   /* prevents icon from shrinking when screen narrows */
+  width: 70px;       /* matches current icon size (adjust if needed) */
+  margin-top: 0;
+  display: flex;     /* allows inner icon to align */
+  justify-content: center;
 }
 .fh5co-feature .fh5co-icon i {
   color: #FF7518 ;
@@ -636,8 +641,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .fh5co-feature .fh5co-text {
-  float: right;
-  width: 90%;
+  flex: 1;
 }
 @media screen and (max-width: 768px) {
   .fh5co-feature .fh5co-text {
