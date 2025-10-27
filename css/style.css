@@ -16,7 +16,7 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 1.6;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
 }
 @media screen and (max-width: 992px) {
   body {
@@ -38,13 +38,13 @@ li{
 }
 
 a {
-  color: #da1212;
+  color: #FF7518 ;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #da1212;
+  color: #FF7518 ;
   outline: none;
 }
 
@@ -67,17 +67,17 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #da1212;
+  background: #FF7518 ;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #da1212;
+  background: #FF7518 ;
 }
 
 ::selection {
   color: #fff;
-  background: #da1212;
+  background: #FF7518 ;
 }
 
 #fh5co-page {
@@ -120,6 +120,7 @@ figure {
 #fh5co-aside #fh5co-logo {
   text-align: center;
 }
+
 #fh5co-aside #fh5co-main-menu ul {
   text-align: center;
   margin: 0;
@@ -157,7 +158,7 @@ figure {
   bottom: 7px;
   left: 10px;
   right: 10px;
-  background-color: #da1212;
+  background-color: #FF7518 ;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -229,8 +230,24 @@ figure {
 #fh5co-aside .fh5co-footer ul li a:hover, #fh5co-aside .fh5co-footer ul li a:active, #fh5co-aside .fh5co-footer ul li a:focus {
   text-decoration: none;
   outline: none;
-  color: #da1212;
+  color: #FF7518 ;
 }
+
+
+.sidebar-logo {
+  text-align: center;         /* center the image horizontally */
+  margin-top: 20px;           /* more space above the logo */
+  padding-bottom: 20px;       /* some breathing room at the bottom */
+}
+
+.sidebar-logo img {
+  width: 90px;                /* slightly larger if you want balance */
+  height: auto;
+  display: inline-block;      /* ensures correct centering */
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
 
 #fh5co-main {
   width: 85%;
@@ -251,7 +268,7 @@ figure {
 }
 #fh5co-main .fh5co-narrow-content {
   position: relative;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   /*padding: 4em 0; */
   padding-top: 2em; /* Reduce the spacing above the content */
@@ -335,7 +352,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   color: #000;
 }
 .work-pagination a:hover {
-  color: #da1212;
+  color: #FF7518 ;
   text-decoration: none;
 }
 @media screen and (max-width: 480px) {
@@ -350,7 +367,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .fh5co-testimonial {
   padding: 3em 0;
-  background: #da1212;
+  background: #FF7518 ;
 }
 @media screen and (max-width: 768px) {
   .fh5co-testimonial {
@@ -428,7 +445,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .fh5co-heading-colored {
-  color: #da1212;
+  color: #FF7518 ;
 }
 
 .fh5co-cards {
@@ -487,7 +504,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .fh5co-counter .fh5co-number {
   font-size: 100px;
-  color: #da1212;
+  color: #FF7518 ;
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -557,12 +574,12 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   }
 }
 .fh5co-social li a:hover {
-  color: #da1212;
+  color: #FF7518 ;
 }
 .fh5co-social li a:hover, .fh5co-social li a:active, .fh5co-social li a:focus {
   outline: none;
   text-decoration: none;
-  color: #da1212;
+  color: #FF7518 ;
 }
 
 #map {
@@ -584,15 +601,17 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   width: 100%;
   float: left;
   padding: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .fh5co-feature .fh5co-icon {
   float: left;
-  width: 10%;
+  width: 5%;
   display: block;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 .fh5co-feature .fh5co-icon i {
-  color: #da1212;
+  color: #FF7518 ;
   font-size: 70px;
 }
 @media screen and (max-width: 1200px) {
@@ -601,7 +620,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   }
 }
 .fh5co-feature.fh5co-feature-sm .fh5co-icon i {
-  color: #da1212;
+  color: #FF7518 ;
   font-size: 28px;
 }
 @media screen and (max-width: 1200px) {
@@ -609,9 +628,16 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     font-size: 28px;
   }
 }
+/* Fix CNRS logo size inside feature blocks */
+.fh5co-icon img {
+  width: 60px;        /* choose the size you like */
+  height: auto;       /* preserve proportions */
+  display: inline-block;
+}
+
 .fh5co-feature .fh5co-text {
   float: right;
-  width: 80%;
+  width: 90%;
 }
 @media screen and (max-width: 768px) {
   .fh5co-feature .fh5co-text {
@@ -637,8 +663,8 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .fh5co-heading {
-  font-size: 24px;
-  color: #da1212;
+  font-size: 20px;
+  color: #FF7518 ; 
   margin-bottom: 1em;
   margin-top: 1.0em; /* Increase the space before the title */
   margin-bottom: 0.5em; /* Reduce the space after the title */
@@ -815,7 +841,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 .owl-theme .owl-dots .owl-dot span:hover {
   background: none;
-  border: 3px solid #da1212;
+  border: 3px solid #FF7518 ; /* red */
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
@@ -854,9 +880,9 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .btn-primary {
-  background: #da1212;
+  background: #FF7518 ;
   color: #fff;
-  border: 2px solid #da1212;
+  border: 2px solid #FF7518 ;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #ec1919 !important;
@@ -864,11 +890,11 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #da1212;
-  border: 2px solid #da1212;
+  color: #FF7518 ;
+  border: 2px solid #FF7518 ;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #da1212;
+  background: #FF7518 ;
   color: #fff;
 }
 
@@ -978,7 +1004,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #da1212;
+  border-color: #FF7518 ;
 }
 
 #message {
@@ -1135,3 +1161,115 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/*# new formatting added by C. Villa */
+
+ul.custom-bullets {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin: 0 !important;            /* remove browser + inherited margins */
+  padding: 0 !important;           /* remove default indent */
+}
+ul.custom-bullets li {
+  position: relative !important;
+  padding-left: 30px !important;
+  margin: 0 !important;
+  line-height: 1.3 !important;
+}
+ul.custom-bullets li::before {
+  content: "•" !important;
+  position: absolute !important;
+  left: 0.3em !important;
+  top: 0.15em !important; /* aligns bullet with first line */
+  color: #FF7518 !important;
+  font-size: 25px !important;
+  line-height: 1 !important;
+}
+.animate-box ul.custom-bullets {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.isolated-line {
+  margin-top: 0.8em;   /* adds space above */
+  margin-bottom: 2.2em; /* adds space below */
+  display: block;     /* ensures it behaves like a full-width block */
+}
+
+#fh5co-aside #fh5co-main-menu ul li.menu-subtitle {
+  color: #FF7518; 
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 15px; /* adjust spacing below the subtitle */
+}
+
+.icon-document {
+  transition: all 0.0s ease;
+}
+.icon-document:hover {
+  color: #FF7518;          /* pumpkin orange */
+  font-weight: bold;       /* thicker look if font supports it */
+}
+.icon-commenting-o {
+  color: #FF7518;      /* your pumpkin orange */
+  transition: all 0.0s ease;
+}
+.icon-commenting-o:hover {
+  color: #FF7518;          /* pumpkin orange */
+  font-weight: bold;       /* thicker look if font supports it */
+}
+.icon-code {
+  transition: all 0.0s ease;
+}
+.icon-code:hover {
+  color: #FF7518;          /* pumpkin orange */
+  font-weight: bold;       /* thicker look if font supports it */
+}
+.icon-image {
+  transition: all 0.0s ease;
+}
+.icon-image:hover {
+  color: #FF7518;          /* pumpkin orange */
+  font-weight: bold;       /* thicker look if font supports it */
+}
+
+a i {
+  text-decoration: none;
+}
+
+a[href] i {
+  text-decoration: none;
+}
+
+a:has(i) {
+  text-decoration: none !important;
+}
+
+a:has(i):hover {
+  text-decoration: none !important;
+}
+
+
+
+
+.abstract {
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h4.underlined {
+  text-decoration: underline;
+  margin-bottom: 10px;  /* Adjust this as needed */
+  margin-top: 20px;
+}

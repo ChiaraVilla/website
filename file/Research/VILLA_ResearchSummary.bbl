@@ -1,0 +1,113 @@
+\begin{thebibliography}{10}
+
+\bibitem{almeida2024evolutionary}
+L.~Almeida, J.~A. Denis, N.~Ferrand, T.~Lorenzi, A.~Prunet, M.~Sabbah, and
+  C.~{Villa}.
+\newblock Evolutionary dynamics of glucose-deprived cancer cells: insights from
+  experimentally informed mathematical modelling.
+\newblock {\em Journal of the Royal Society Interface}, 21(210):20230587, 2024.
+\newblock DOI: 10.1098/rsif.2023.0587.
+
+\bibitem{almeida2024mathematical}
+L.~Almeida, A.~Poulain, A.~D. Pourtier, and C.~{Villa}.
+\newblock Mathematical modelling of the contribution of senescent fibroblasts
+  to basement membrane digestion during carcinoma invasion.
+\newblock {\em HAL preprint}, 2024.
+\newblock hal-04574340.
+
+\bibitem{browning2024identifiability}
+A.~P. Browning, R.~M. Crossley, C.~Villa, P.~K. Maini, A.~L. Jenner,
+  T.~Cassidy, and S.~Hamis.
+\newblock Identifiability of phenotypic adaptation from low-cell-count
+  experiments and a stochastic model.
+\newblock {\em PLOS Computational Biology}, 21(6):e1013202, 2025.
+\newblock DOI: 10.1371/journal.pcbi.1013202.
+
+\bibitem{hamis2024growth}
+S.~Hamis, A.~P. Browning, A.~L. Jenner, C.~{Villa}, P.~Maini, and T.~Cassidy.
+\newblock Growth rate-driven modelling reveals how phenotypic adaptation drives
+  drug resistance in brafv600e-mutant melanoma.
+\newblock {\em bioRxiv preprint 2024.08.14.607616}, pages 2024--08, 2024.
+\newblock hal-04851795v1.
+
+\bibitem{lorenzi2024kinetic}
+T.~Lorenzi, N.~Loy, and C.~{{Villa}}.
+\newblock Phenotype-structuring of non-local kinetic models of cell migration
+  driven by environmental sensing.
+\newblock {\em arXiv preprint arXiv:2412.16258}, 2024.
+\newblock hal-04851469.
+
+\bibitem{lorenzi2020discrete}
+T.~Lorenzi, F.~R. Macfarlane, and C.~{Villa}.
+\newblock Discrete and continuum models for the evolutionary and spatial
+  dynamics of cancer: a very short introduction through two case studies.
+\newblock {\em Trends in Biomathematics: Modeling Cells, Flows, Epidemics, and
+  the Environment: Selected Works from the BIOMAT Consortium Lectures, Szeged,
+  Hungary, 2019}, pages 359--380, 2020.
+\newblock DOI: 10.1007/978-3-030-46306-9\_22.
+
+\bibitem{lorenzi2024phenotype}
+T.~Lorenzi, K.~J. Painter, and C.~Villa.
+\newblock Phenotype structuring in collective cell migration: a tutorial of
+  mathematical models and methods.
+\newblock {\em Journal of Mathematical Biology}, 90(6):61, 2025.
+\newblock DOI: 10.1007/s00285-025-02223-y.
+
+\bibitem{mottes2021impact}
+F.~Mottes, C.~{Villa}, M.~Osella, and M.~Caselle.
+\newblock The impact of whole genome duplications on the human gene regulatory
+  networks.
+\newblock {\em PLoS Computational Biology}, 17(12):e1009638, 2021.
+\newblock DOI: 10.1371/journal.pcbi.1009638.
+
+\bibitem{padovano2024development}
+F.~Padovano and C.~{Villa}.
+\newblock The development of drug resistance in metastatic tumours under
+  chemotherapy: an evolutionary perspective.
+\newblock {\em Journal of Theoretical Biology}, 595:111957, 2024.
+\newblock DOI: 10.1016/j.jtbi.2024.111957.
+
+\bibitem{perthame2024regularity}
+B.~Perthame and C.~{{Villa}}.
+\newblock Existence, regularity and stability in a strongly degenerate
+  nonlinear diffusion and haptotaxis model of cancer invasion.
+\newblock {\em arXiv preprint arXiv:2412.18261}, 2024.
+\newblock hal-04854773.
+
+\bibitem{villa2021mechanical}
+C.~{Villa}, M.~A.~J. Chaplain, A.~Gerisch, and T.~Lorenzi.
+\newblock Mechanical models of pattern and form in biological tissues: The role
+  of stress--strain constitutive equations.
+\newblock {\em Bulletin of Mathematical Biology}, 83(7):1--38, 2021.
+\newblock DOI: 10.1007/s11538-021-00912-5.
+
+\bibitem{villa2021evolutionary}
+C.~{Villa}, M.~A.~J. Chaplain, and T.~Lorenzi.
+\newblock Evolutionary dynamics in vascularised tumours under chemotherapy:
+  Mathematical modelling, asymptotic analysis and numerical simulations.
+\newblock {\em Vietnam Journal of Mathematics}, 49(1):143--167, 2021.
+\newblock DOI: 10.1007/s10013-020-00445-9.
+
+\bibitem{villa2021modeling}
+C.~{Villa}, M.~A.~J. Chaplain, and T.~Lorenzi.
+\newblock Modeling the emergence of phenotypic heterogeneity in vascularized
+  tumors.
+\newblock {\em SIAM Journal on Applied Mathematics}, 81(2):434--453, 2021.
+\newblock DOI: 10.1137/19M1293971.
+
+\bibitem{villa2022novel}
+C.~{Villa}, A.~Gerisch, and M.~A.~J. Chaplain.
+\newblock A novel nonlocal partial differential equation model of endothelial
+  progenitor cell cluster formation during the early stages of vasculogenesis.
+\newblock {\em Journal of Theoretical Biology}, 534:110963, 2022.
+\newblock DOI: 10.1016/j.jtbi.2021.110963.
+
+\bibitem{villa2024reducing}
+C.~Villa, P.~K. Maini, A.~P. Browning, A.~L. Jenner, S.~Hamis, and T.~Cassidy.
+\newblock Reducing phenotype-structured partial differential equations models
+  of cancer evolution to systems of ordinary differential equations: a
+  generalised moment dynamics approach.
+\newblock {\em Journal of Mathematical Biology}, 91(2):22, 2025.
+\newblock DOI: 10.1007/s00285-025-02246-5.
+
+\end{thebibliography}

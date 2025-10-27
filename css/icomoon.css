@@ -25,8 +25,25 @@
 }
 
 .icon-researchgate:before {
-    content: url('path/to/icons/researchgate.svg');
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url("../icons/researchgate.svg") no-repeat center center;
+  background-size: contain;
+  vertical-align: middle;
 }
+
+.icon-linkedin:before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url("../icons/linkedin.svg") no-repeat center center;
+  background-size: contain;
+  vertical-align: middle;
+}
+
 
 .icon-glass:before {
     content: "\f000";
@@ -696,9 +713,6 @@
 }
 .icon-envelope:before {
     content: "\f0e0";
-}
-.icon-linkedin:before {
-    content: "\f0e1";
 }
 .icon-rotate-left:before {
     content: "\f0e2";

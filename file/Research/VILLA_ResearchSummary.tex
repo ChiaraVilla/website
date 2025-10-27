@@ -1,0 +1,120 @@
+\documentclass[10pt]{extarticle}
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text}
+\usepackage[parfill]{parskip}
+\usepackage[nodisplayskipstretch]{setspace}
+\setstretch{1}
+    \linespread{1}
+\usepackage[numbers]{natbib}
+\setlength{\bibsep}{0.0pt}
+\renewcommand\bibpreamble{\vspace{-1\baselineskip}}
+\usepackage{hyperref}
+\usepackage{eurosym}
+\usepackage[left=1.5cm,right=1.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{1\baselineskip}{\baselineskip}
+\usepackage[shortlabels]{enumitem}
+\setlist{nolistsep}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{caption}
+\setlist[itemize]{leftmargin=*}
+\usepackage{enumitem}
+\usepackage{tcolorbox} 
+\usepackage{color} 
+\def\red#1{\textcolor{red}{#1}}
+\def\blue#1{\textcolor{blue}{#1}}
+\usepackage{xcolor}
+\definecolor{ultramarine}{RGB}{29,41,120}
+\def\tblue#1{\textcolor{ultramarine}{#1}}
+\def\bb#1{\textbf{\tblue{#1}}}
+\renewcommand*{\refname}{\color{ultramarine}References}
+\usepackage{amsfonts,amssymb,amsmath,mathtools}
+\usepackage{bbm,bm}
+\usepackage{anyfontsize}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%\renewcommand\headrulewidth{0pt} % no line between document and header
+%\fancyhead{} % clear header
+\fancyhead[L]{Chiara Villa}    
+%fancyhead[L]{Chiara Villa - \href{https://chiaravilla.github.io/website/index.html}{\em https://chiaravilla.github.io/website/index.html}}
+\fancyhead[R]{Work overview}    
+\fancyfoot{} % clear footer
+\fancyfoot[R]{\thepage}
+\fancypagestyle{firstpage}
+{   
+    %\fancyhead{} % clear header
+    \fancyhead[L]{Chiara Villa }% - \href{https://chiaravilla.github.io/website/index.html}{\em https://chiaravilla.github.io/website/index.html}}    
+    %\renewcommand\headrulewidth{0pt} % no line between document and header
+    \fancyfoot[R]{\thepage}
+}
+
+%%% HIGHLIGHT TEXT
+\def\hlt#1{\textbf{#1}}
+\def\hltb#1{\textit{#1}}
+\def\hltc#1{\textbf{#1}}
+%%% NEW Title format ffor paragrraphs to distinguish it from highlited text
+\def\tita#1{\underline{\uppercase{#1}}}
+\def\titb#1{\underline{#1}}
+\def\titc#1{{\textit{#1}}}
+
+
+\title{\vspace{-1.2cm}\textbf{\tblue{
+Mathematical modelling of cell population dynamics \vspace{-0.3cm}}}}%\\ in cancer and development}}}
+\vspace{-1.5cm}
+\author{\vspace{-0.5cm}\textbf{Chiara Villa}}
+\date{}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{firstpage}
+
+\vspace{-0.7cm}
+\textbf{Keywords:} Mathematical modelling; Partial differential equations; Intratumour phenotypic heterogeneity;  Patter formation; Gene regulatory networks; Formal asymptotics; Numerical simulations; Parametric estimation. %; Statistical analysis.
+
+
+\vspace{-0.5cm}
+\tblue{\subsection*{\titb{Why mathematical models? What type of models?}}}
+%\vspace{-0.2cm}
+I am particularly \hlt{interested in the formulation and study of mathematical models of the spatio-temporal and evolutionary dynamics of cell populations in cancer and development}. 
+My research is mostly focussed on the use of continuous, deterministic models of cell population dynamics, providing a mean-filed description at the cell-population level of the system under study, \hlt{which translate mathematically into systems of nonlinear, and often nonlocal, partial differential equations} (PDEs).  
+Compared to their discrete, stochastic counterparts, PDE models are generally more ameanable to analytical investigations and less computationally expensive.  This makes them great theoretical tools for the extrapolation of qualitative and quantitative information on the mechanisms at the basis of a variety of tissue-level problems in biology and medicine occurring over longer timescales. % (days-years). 
+\hlt{These models may complement empirical research, serving as a proof of concept mean for newly developed theories and steering experimental investigations towards the most promising research perspectives. }
+
+\vspace{-0.5cm}
+\tblue{\subsection*{\titb{What biological questions? What mathematical challenges?}}}
+
+My research is guided by two key questions: \textit{\textbf{“How is cellular behaviour guided by external clues?”}} and \textit{\textbf{“How does heterogeneity in individual cell behaviour affect emergent population dynamics?”.}} 
+Hence, the core of my work has been devoted to the study of \hlt{PDE models} capable of shedding light on the hidden mechanisms responsible \hlt{for the spatial sorting of cell populations at the tissue scale}, whether this may arise due to the adaptive dynamics of cancer cells and their nonlinear interaction with abiotic factors,~\cite{lorenzi2024phenotype,padovano2024development,villa2021evolutionary,villa2021modeling},  or from more complex forms of cell movement mediated by intracellular signalling and their dynamic interaction with the extracellular matrix~\cite{lorenzi2024phenotype,perthame2024regularity,villa2021mechanical,villa2022novel}.  
+Models on the evolutionary dynamics of cancer cell populations reveal interesting emergent behaviours both prior to~\cite{almeida2024evolutionary,villa2021evolutionary} and during~\cite{browning2024identifiability,padovano2024development,villa2021modeling} chemotherapy.\\
+The correct formulation of PDE models may be investigated by formally deriving these from stochastic agent-based models at microscopic scale~\cite{lorenzi2024kinetic,lorenzi2020discrete,lorenzi2024phenotype}.  
+Then, \hlt{these} PDE  \hlt{models pose a series of interesting analytical}~\cite{lorenzi2024phenotype,padovano2024development,perthame2024regularity,villa2021modeling,villa2024reducing}
+ \hlt{and numerical}~\cite{lorenzi2024kinetic,lorenzi2024phenotype,villa2021mechanical}  \hlt{challenges}, which can be tackled by means of formal asymptotic methods, linear stability analyses and appropriate numerical schemes preventing the emergence of spurious oscillations.  
+On top of this theoretical work, \hlt{statistical challenges are posed by the integration} of mathematical models \hlt{with experimental data}, necessary to test the model’s applicability to empirical systems and identify biologically relevant parameter regimes~\cite{almeida2024evolutionary,browning2024identifiability,hamis2024growth}.   \\
+I have also conducted some work in the investigation of the statistical enrichment of certain network motifs in human gene regulatory networks and its evolutionary insights~\cite{mottes2021impact}.
+
+\vspace{-0.5cm}
+\tblue{\subsection*{{What methodology?}}}
+
+In my work you can find the following \hlt{methodology}:
+\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=0pt, parsep=0pt, partopsep=0pt]
+\item phenomenological modelling of cell spatio-temporal and evolutionary dynamics with PDEs, and drug kinetics with ordinary differential equations~\cite{padovano2024development}, in a variety of physiological and pathological settings; 
+\item  \textit{a priori} {regularity} {estimates} for PDE well-posedness studies~\cite{perthame2024regularity};
+\item {formal analytical methods} for PDEs and ODEs, such as linear stability analysis for pattern formation~\cite{villa2021mechanical,villa2022novel}, Hamilton-Jacobi formalism~\cite{lorenzi2024phenotype,padovano2024development,villa2021modeling}, travelling wave analysis~\cite{lorenzi2024phenotype}, micro-to-macro asymptotics~\cite{lorenzi2024kinetic,lorenzi2020discrete,lorenzi2024phenotype}, model reduction procedures~\cite{almeida2024mathematical,villa2021evolutionary,villa2024reducing};
+\item construction of {numerical schemes} for solving PDEs (finite difference/volume methods, flux limiting schemes)~\cite{lorenzi2024phenotype,lorenzi2024kinetic,villa2021mechanical};
+\item development of algorithms for {parameter estimation} and uncertainty quantification (likelihood-maximisation and bootstrapping~\cite{almeida2024evolutionary}, bayesian inference~\cite{browning2024identifiability});
+\item {statistical analysis} of gene regulatory networks (network motif identification, statistical enrichment measures)~\cite{mottes2021impact},;
+\item {software routines} implementation for numerical time integration~\cite{lorenzi2024phenotype,villa2021mechanical}, optimisation problems~\cite{almeida2024evolutionary} and global sensitivity analyses~\cite{almeida2024mathematical,padovano2024development}.
+\end{itemize}
+
+
+
+\bibliographystyle{abbrv}      % mathematics and physical sciences
+%\bibliography{Project}
+{%\fontsize{9.5}{10.5}\selectfont
+%\footnotesize
+\bibliography{Project}}
+
+
+\end{document}
